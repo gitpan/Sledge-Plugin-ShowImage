@@ -3,19 +3,25 @@ abstract: 'plugin to show image from data'
 author:
   - 'MATSUNO Tokuhiro <tokuhirom at gmail dot com>'
 build_requires:
+  ExtUtils::MakeMaker: 6.42
   Test::More: 0
   YAML: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.75'
+generated_by: 'Module::Install version 0.91'
 license: unknown
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.3.html
-  version: 1.3
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
 name: Sledge-Plugin-ShowImage
 no_index:
   directory:
     - inc
     - t
+    - xt
 requires:
+  Filter::Util::Call: 0
+  HTTP::MobileAgent: 0.27
   perl: 5.8.0
-version: 0.03
+version: 0.04

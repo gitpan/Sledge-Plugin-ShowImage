@@ -4,7 +4,7 @@ use warnings;
 use 5.00800;
 use Exporter 'import';
 use HTTP::MobileAgent;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 my $ONE_DOT_GIF = (
      "\x47\x49\x46\x38\x39\x61\x01\x00\x01\x00\x80\xff\x00\xff\xff\xff\x00"

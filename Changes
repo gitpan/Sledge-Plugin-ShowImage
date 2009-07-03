@@ -1,5 +1,9 @@
 Revision history for Perl extension Sledge::Plugin::ShowImage
 
+0.04
+
+    - fixed deps
+
 0.03
 
     - initial upload to cpan

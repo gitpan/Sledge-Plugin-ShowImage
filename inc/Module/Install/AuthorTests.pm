@@ -10,19 +10,19 @@ use Carp ();
 
 use vars qw{$VERSION $ISCORE @ISA};
 BEGIN {
-  $VERSION = '0.001';
+  $VERSION = '0.002';
   $ISCORE  = 1;
   @ISA     = qw{Module::Install::Base};
 }
 
-#line 36
+#line 42
 
 sub author_tests {
   my ($self, @dirs) = @_;
   _add_author_tests($self, \@dirs, 0);
 }
 
-#line 50
+#line 56
 
 sub recursive_author_tests {
   my ($self, @dirs) = @_;
@@ -54,6 +54,6 @@ sub _add_author_tests {
   }
 }
 
-#line 101
+#line 107
 
 1;
